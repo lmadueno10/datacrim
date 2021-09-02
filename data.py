@@ -64,8 +64,6 @@ queryString = {
 
 dirBase = "C:/Users/Asus/Desktop/datacrim"
 
-driver.get("https://arcgis4.inei.gob.pe:6443/arcgis/rest/services/Datacrim/DATACRIM005_AGS_PUNTOSDELITOS_CIUDADANO/MapServer/45/query?where=SUBSTRING%28UBIGEO_HECHO+FROM+1+FOR+2%29+%3D+%2704%27&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&having=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&historicMoment=&returnDistinctValues=false&resultOffset=&resultRecordCount=&queryByDistance=&returnExtentOnly=false&datumTransformation=&parameterValues=&rangeValues=&quantizationParameters=&featureEncoding=esriDefault&f=pjson")
-
 for row in rows:
     group_name = row[0]
     layer_name = row[1]
